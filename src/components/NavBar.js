@@ -9,7 +9,7 @@ export const Navibar = () => {
   return (
     <Navbar>
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="/decentralized-curriculum-vitae">
           <h1>DeFi CV</h1>
         </Navbar.Brand>
       </Container>
