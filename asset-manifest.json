@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/decentralized-curriculum-vitae/static/css/main.c72517aa.css",
+    "main.js": "/decentralized-curriculum-vitae/static/js/main.e39fa07c.js",
+    "index.html": "/decentralized-curriculum-vitae/index.html",
+    "main.c72517aa.css.map": "/decentralized-curriculum-vitae/static/css/main.c72517aa.css.map",
+    "main.e39fa07c.js.map": "/decentralized-curriculum-vitae/static/js/main.e39fa07c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c72517aa.css",
+    "static/js/main.e39fa07c.js"
+  ]
+}
