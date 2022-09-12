@@ -1,38 +1,65 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background-image: linear-gradient(to bottom right, #33ff00, #000000);
+  height: 100vh;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.App h1 {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.pages Button {
+  margin-right: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+NavBar {
+  height: 50px;
+}
+.Home {
+  padding-top: 100px;
+  margin: auto;
+  text-align: center;
+  width: 70%;
+  color: white;
+}
+.navbar-brand > h1 {
+  color: white;
+}
+.AddCV > div {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+}
+.AddCV input {
+  background-color: transparent;
+}
+.AddCV select {
+  background-color: transparent;
+}
+.AddCV label {
+  color: white;
+}
+.submit {
+  text-align: center;
+}
+.list {
+  text-align: center;
+  margin-top: 50px;
+}
+.listItem {
+  
+  --bs-list-group-bg: #fff0;
+}
+.listItem a {
+  text-decoration: none;
+  color: black;
+}
+.User {
+  margin-top: 50px;
+}
+.User div {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
 }
