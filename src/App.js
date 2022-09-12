@@ -12,7 +12,7 @@ export const App = () => {
     <div className="App">
       <Navibar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/decentralized-curriculum-vitae" element={<Home />} />
         <Route path="/CVs" element={<CVs />} />
         <Route path="/AddCV" element={<AddCV />} />
         <Route path="/CVs/:address" element={<CIDs />} />
