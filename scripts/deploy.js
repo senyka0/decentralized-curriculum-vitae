@@ -5,7 +5,7 @@ const main = async () => {
   const contract = await Contract.deploy();
   await contract.deployed();
 
-  console.log("Greeter deployed to:", contract.address);
+  console.log("Contract deployed to:", contract.address);
 };
 
 main()

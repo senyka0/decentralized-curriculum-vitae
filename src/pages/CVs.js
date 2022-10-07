@@ -10,8 +10,8 @@ export const CVs = () => {
   }, []);
   const [adressList, setadressList] = useState([]);
   const list = async () => {
-    const contractAddress = "0xb29cb271a2435518B288cC629FCC20eFbAC6dC7a";
-    const provider = new ethers.providers.JsonRpcProvider("https://rinkeby.infura.io/v3/c0c87d279cb240ff8036c2f999a0ce14");
+    const contractAddress = "0x53C689C056D9b8523992d4C77Bab8E9736Fd0a11";
+    const provider = new ethers.providers.JsonRpcProvider("https://goerli.infura.io/v3/c0c87d279cb240ff8036c2f999a0ce14");
     const contract = new ethers.Contract(contractAddress, DefiCV.abi, provider);
     setadressList(await contract.getUserAdresses());
   };

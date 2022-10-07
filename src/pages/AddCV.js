@@ -3,16 +3,16 @@ import { Button } from "react-bootstrap";
 import { ethers } from "ethers";
 import { create } from "ipfs-http-client";
 import DefiCV from "../artifacts/contracts/DefiCV.sol/DefiCV.json";
-const contractAddress = "0xb29cb271a2435518B288cC629FCC20eFbAC6dC7a";
+const contractAddress = "0x53C689C056D9b8523992d4C77Bab8E9736Fd0a11";
 
 export const AddCV = () => {
   const connect = async () => {
     if (window.ethereum) {
-      if (window.ethereum.networkVersion !== 4) {
+      if (window.ethereum.networkVersion !== 5) {
         try {
           await window.ethereum.request({
             method: "wallet_switchEthereumChain",
-            params: [{ chainId: "0x4" }],
+            params: [{ chainId: "0x5" }],
           });
         } catch (err) {
           if (err.code === 4902) {
@@ -20,10 +20,10 @@ export const AddCV = () => {
               method: "wallet_addEthereumChain",
               params: [
                 {
-                  chainName: "Rinkeby Test Network",
-                  chainId: "0x4",
-                  nativeCurrency: { name: "RinkebyETH", decimals: 18, symbol: "RinkebyETH" },
-                  rpcUrls: ["https://rinkeby.infura.io/v3/"],
+                  chainName: "Goerli Test Network",
+                  chainId: "0x5",
+                  nativeCurrency: { name: "GoerliETH", decimals: 18, symbol: "GoerliETH" },
+                  rpcUrls: ["https://goerli.infura.io/v3/"],
                 },
               ],
             });
